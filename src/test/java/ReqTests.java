@@ -80,7 +80,7 @@ public class ReqTests {
     }
     @Test
     @DisplayName("Проверить, что пользователь успешно удален")
-    void successDeliteUserTest() {
+    void successDeleteUserTest() {
         given()
                     .contentType(JSON)
                     .log().uri()
